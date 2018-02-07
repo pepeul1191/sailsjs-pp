@@ -1,4 +1,4 @@
-<%- partial('../partials/blank_header') %>
+<%- include('../partials/blank_header') %>
 <h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
-<%- partial('../partials/blank_footer') %>
+<p>Welcome to <%= sails.config.globals.base_url %></p>
+<%- include('../partials/blank_footer') %>
