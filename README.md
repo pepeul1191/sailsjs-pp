@@ -33,3 +33,4 @@ Fuentes:
 + https://stackoverflow.com/questions/34025614/changing-the-default-sails-public-folder
 + http://walidhosseini.com/journal/2014/10/21/sails-config-hooks-policies-and-services.html
 + https://sailsjs.com/documentation/concepts/extending-sails/hooks/hook-specification
++ https://sailsjs.com/documentation/concepts/views/partials

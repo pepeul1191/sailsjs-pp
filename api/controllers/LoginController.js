@@ -1,6 +1,7 @@
 module.exports = {
   index: function (req, res) {
-    return res.send('Hi there');
+    var locals = {};
+    return res.view('login/index', locals);;
   },
   bye: function (req, res) {
     return res.redirect('http://www.sayonara.com');
