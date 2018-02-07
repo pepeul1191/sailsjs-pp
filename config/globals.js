@@ -9,6 +9,8 @@
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.globals.html
  */
 module.exports.globals = {
+  'base_url' : 'http://localhost:1337/',
+  'static_url' : 'http://localhost:1337/',
 
   /****************************************************************************
   *                                                                           *

@@ -34,7 +34,7 @@ module.exports.routes = {
 
   '/': {view: 'homepage'},
   'get /login': 'LoginController.index',
-  'get /ubicaciones/departamento/listar': 'ubicaciones/DepartamentoController.index',
+  'get /ubicaciones/departamento/listar': 'ubicaciones/DepartamentoController.listar',
 
   /***************************************************************************
   *                                                                          *
