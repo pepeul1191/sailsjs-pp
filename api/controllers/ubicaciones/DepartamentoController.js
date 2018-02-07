@@ -1,5 +1,9 @@
+var models = require('../../models/ubicaciones');
+
 module.exports = {
   listar: function (req, res) {
-    return res.send('Listar departamentos <br> BASE_URL : ' + sails.config.globals.base_url);
+    var rpta = models.deparartamento.findAll({attributes: ['id', 'nombre']}).then(function (departamentos) {
+      return res.send(JSON.stringify(departamentos));
+    });
   },
 };
