@@ -7,6 +7,7 @@ Instalar dependencias:
 Arrancar la aplicación:
 
     $ sails lift
+    $ sails lift --port=1338
 
 Configuración de la ruta de los arhicos estáticos esté en el archivo:
 
@@ -18,6 +19,10 @@ Configuracines adicionales en fuente[4]
 Generar un hook:
 
     $ sails generate hook <<nombre_hoook>>
+
+Para ver que hooks se están cargando al arrancar la aplicación:
+
+    $ sails lift --verbose
 
 ---
 
