@@ -33,8 +33,12 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {view: 'homepage'},
+
   'get /login': 'LoginController.index',
   'post /login/acceder': 'LoginController.acceder',
+  'get /login/usuario': 'LoginController.usuario',
+  'get /login/salir': 'LoginController.salir',
+
   'get /ubicaciones/departamento/listar': 'ubicaciones/DepartamentoController.listar',
   'get /ubicaciones/provincia/listar/:departamento_id': 'ubicaciones/ProvinciaController.listar',
   'get /ubicaciones/distrito/listar/:provincia_id': 'ubicaciones/DistritoController.listar',
