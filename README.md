@@ -25,6 +25,10 @@ Para ver que hooks se están cargando al arrancar la aplicación:
 
     $ sails lift --verbose
 
+Para corregir el error ENOSPC en caso de presentarse:
+
+    $ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
 ---
 
 Fuentes:
@@ -36,3 +40,4 @@ Fuentes:
 + https://sailsjs.com/documentation/concepts/extending-sails/hooks/hook-specification
 + https://sailsjs.com/documentation/concepts/views/partials
 + http://unirest.io/nodejs.html
++ https://stackoverflow.com/questions/22475849/node-js-error-enospc
