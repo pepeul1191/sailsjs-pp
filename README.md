@@ -2,6 +2,7 @@
 
 Instalar dependencias:
 
+    $ npm install sails -g
     $ npm install
 
 Arrancar la aplicación:

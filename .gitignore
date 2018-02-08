@@ -117,3 +117,6 @@ nbproject
 .idea
 .node_history
 package-lock.json
+
+/public/bower_components
+/public/dist
