@@ -34,7 +34,7 @@ module.exports = {
   },
   salir: function (req, res) {
     req.session.destroy(function(err) {
-      return res.redirect(sails.config.globals.base_url);
+      return res.redirect(sails.config.globals.base_url + 'login');
     });
   },
   bye: function (req, res) {
