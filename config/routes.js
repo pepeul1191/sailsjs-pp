@@ -34,6 +34,7 @@ module.exports.routes = {
 
   '/': {view: 'homepage'},
   'get /login': 'LoginController.index',
+  'post /login/acceder': 'LoginController.acceder',
   'get /ubicaciones/departamento/listar': 'ubicaciones/DepartamentoController.listar',
 
   /***************************************************************************
