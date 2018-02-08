@@ -11,6 +11,9 @@
 module.exports.globals = {
   'base_url' : 'http://localhost:1337/',
   'static_url' : 'http://localhost:1337/',
+  'servicios' : {
+    'accesos': 'http://localhost:5000/',
+  },
 
   /****************************************************************************
   *                                                                           *

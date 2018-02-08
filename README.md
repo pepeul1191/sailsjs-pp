@@ -35,3 +35,4 @@ Fuentes:
 + http://walidhosseini.com/journal/2014/10/21/sails-config-hooks-policies-and-services.html
 + https://sailsjs.com/documentation/concepts/extending-sails/hooks/hook-specification
 + https://sailsjs.com/documentation/concepts/views/partials
++ http://unirest.io/nodejs.html
