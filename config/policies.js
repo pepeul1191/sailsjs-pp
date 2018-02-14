@@ -48,4 +48,8 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+  //'*': 'sessionAuth',
+  'ubicaciones/DepartamentoController': {
+    listar: ['usuarioLogueado']
+  }
 };
