@@ -5,7 +5,9 @@ module.exports = {
     if (typeof req.session.estado !== 'undefined' && req.session.estado == 'activo'){
       return res.redirect(sails.config.globals.base_url);
     }else{
-      var locals = {'title': 'Bienvenido', 'mensaje': false};
+      var csss = ['bower_components/bootstrap/dist/css/bootstrap.min', 'bower_components/font-awesome/css/font-awesome.min']
+      var jss = ['bower_components/jquery/dist/jquery.min', 'bower_components/bootstrap/dist/js/bootstrap.min']
+      var locals = {'title': 'Bienvenido', 'mensaje': false, 'csss': csss, 'jss': jss};
       return res.view('login/index', locals);
     }
   },
